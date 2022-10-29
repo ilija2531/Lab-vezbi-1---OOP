@@ -1,0 +1,4 @@
+INDEX VERSION 1.131+C:\Users\ilija\Desktop\Java- OOP\Lab. Vezbi\Cas 1\.metadata\.plugins\org.eclipse.jdt.core
+3691255914.index
+3907514166.index
+1865797976.index

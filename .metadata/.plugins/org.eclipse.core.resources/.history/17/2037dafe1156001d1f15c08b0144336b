@@ -1,0 +1,13 @@
+package vezba5;
+
+public class Vezba5 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		String unit = "степен";
+		String value = "2.5";
+		System.out.println("Temperaturata iznesuva " + (int)(value*10)+ unit);
+
+	}
+
+}

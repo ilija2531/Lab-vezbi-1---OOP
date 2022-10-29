@@ -1,0 +1,26 @@
+package vezba6;
+
+public class Vezba6 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		String article1 = "чоколадо";
+		String price1 = "50";
+		String quantity = "5";
+		String article2 = "сок";
+		String price2 = "35";
+		String unit = "денар";
+		
+		int chocolateprice = Integer.parseInt(price1) * Integer.parseInt(quantity);
+		int juiceprice = Integer.parseInt(price2) * Integer.parseInt(quantity);
+		int totalprice = chocolateprice + juiceprice;
+		System.out.println("Smetka: ");
+		System.out.println("Edno " + article1 + "-" + price1 + unit);
+		System.out.println("50 * 5 = " +chocolateprice);
+		System.out.println("Eden " + article2 + "-" + price2 + unit);
+		System.out.println("35 * 5 = "+ juiceprice);
+		System.out.println("Vkupna cena = " + totalprice);
+
+	}
+
+}
